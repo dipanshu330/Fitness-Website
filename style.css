@@ -1,4 +1,4 @@
-/* ===== RESET & BASE ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +6,11 @@
 }
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #101010;          /* Dark background */
-  color: #f5f5f5;               /* Light text */
+  background: #101010;         
+  color: #f5f5f5;              
   line-height: 1.8;
 }
 
-/* ===== HEADER / NAVBAR ===== */
 header {
   position: sticky;
   top: 0;
@@ -25,7 +24,7 @@ header {
 }
 
 .logo {
-  color: #00ff7f;               /* Accent color */
+  color: #00ff7f;              
   font-size: 1.8rem;
   font-weight: 700;
   text-decoration: none;
@@ -54,7 +53,7 @@ header {
   cursor: pointer;
 }
 
-/* ===== CONTENT SECTIONS ===== */
+
 section {
   max-width: 1150px;
   margin: 2.5rem auto;
@@ -80,7 +79,7 @@ img.responsive {
   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
 }
 
-/* ===== CARDS ===== */
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -105,7 +104,7 @@ img.responsive {
   box-shadow: 0 8px 16px rgba(0,0,0,0.6);
 }
 
-/* ===== PRICE TABLE ===== */
+
 .price-table {
   overflow-x: auto;
   margin-top: 2rem;
@@ -136,7 +135,7 @@ img.responsive {
   background: rgba(0, 255, 127, 0.08);
 }
 
-/* ===== CONTACT FORM ===== */
+
 form {
   display: grid;
   gap: 1rem;
@@ -162,7 +161,7 @@ button {
 }
 button:hover { background: #00e6e6; }
 
-/* ===== FOOTER ===== */
+
 footer {
   background: #181818;
   color: #c0c0c0;
@@ -177,7 +176,6 @@ footer a {
 }
 footer a:hover { color: #00e6e6; }
 
-/* ===== RESPONSIVE NAV ===== */
 @media (max-width: 768px) {
   .menu-icon { display: block; }
   nav {
@@ -200,3 +198,4 @@ footer a:hover { color: #00e6e6; }
     max-height: 320px;
   }
 }
+
